@@ -1,0 +1,8 @@
+server:
+  port: 8060
+spring:
+  application:
+    name: zk-order
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
